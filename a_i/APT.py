@@ -21,3 +21,4 @@ else:
     print("똑같습니다.")
 
 # print("은행에 {}만원을 {}% 로 {}년 맡기면 {}만원 됩니다.".format(reward, RATE*100, count, total))
+# 가나다라
