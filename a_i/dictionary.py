@@ -2,7 +2,7 @@ lists = [3, 4, 1, 2, 7]
 
 print(lists[1])
 
-# 사전
+# 사전 dict()
 # dictionary :  key - value
 
 dict1 = {}
@@ -32,3 +32,24 @@ family_keys = list(family.values())
 
 print(family_keys)
 print(type(family_keys))
+
+
+x = {
+    "name": "워니",
+    "age": 20
+
+}
+
+print(x)
+print(x["name"])
+print(x["age"])
+
+print("age" in x)
+
+for key in family:
+    print("key : " + str(key))
+    print("value : " + str(family[key]))
+
+
+x[0] = "워니"
+print(x)
